@@ -7,9 +7,15 @@ import {
 } from "../types";
 
 const API_URL = "https://openrouter.ai/api/v1/chat/completions";
-const API_KEY =
-  // import.meta.env.VITE_OPENROUTER_API_KEY ??
-  "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";
+
+// Use process.env for API key in server environments like Render.com
+const API_KEY = import.meta.env.VITE_OPENROUTER_API_KEY;
+
+if (!API_KEY) {
+  throw new Error(
+    "OpenRouter API key is missing. Please set VITE_OPENROUTER_API_KEY in your environment variables."
+  );
+}
 
 export const analyzeSymptoms = async (
   patientData: PatientData
