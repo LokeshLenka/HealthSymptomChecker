@@ -17,6 +17,8 @@ if (!API_KEY) {
   );
 }
 
+console.log("API KEY:", API_KEY);
+
 export const analyzeSymptoms = async (
   patientData: PatientData
 ): Promise<AnalysisResult> => {
