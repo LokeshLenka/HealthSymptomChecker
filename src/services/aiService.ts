@@ -8,7 +8,7 @@ import {
 
 const API_URL = "https://openrouter.ai/api/v1/chat/completions";
 
-// Use process.env for API key in server environments like Render.com
+// Remove any local ImportMeta or ImportMetaEnv declarations. Use only import.meta.env for Vite.
 const API_KEY = import.meta.env.VITE_OPENROUTER_API_KEY;
 
 if (!API_KEY) {
