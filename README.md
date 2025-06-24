@@ -41,7 +41,7 @@ Coming soon (you can deploy to [Vercel](https://vercel.com/) or [Netlify](https:
 ```bash
 git clone https://github.com/your-username/ai-symptom-checker.git
 cd ai-symptom-checker
-
+```
 ### 2. Install the npm
 
 ```bash
