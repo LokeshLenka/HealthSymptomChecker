@@ -29,7 +29,7 @@ A minimalist AI-powered web app that analyzes user symptoms and provides prelimi
 ---
 
 ## 🧪 Live Demo
----
+
 https://healthsymptomchecker.onrender.com
 ---
 
