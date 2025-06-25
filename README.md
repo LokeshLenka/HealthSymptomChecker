@@ -29,9 +29,7 @@ A minimalist AI-powered web app that analyzes user symptoms and provides prelimi
 ---
 
 ## 🧪 Live Demo
-
-Coming soon (you can deploy to [Vercel](https://vercel.com/) or [Netlify](https://netlify.com/))!
-
+https://healthsymptomchecker.onrender.com
 ---
 
 ## 📦 Setup
