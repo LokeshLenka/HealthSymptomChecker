@@ -109,6 +109,7 @@ function App() {
       [field]: value,
     }));
   };
+  
 
   const addCustomSymptom = () => {
     const newSymptom: Symptom = {
