@@ -10,7 +10,7 @@ A minimalist AI-powered web app that analyzes user symptoms and provides prelimi
 
 - ✅ Add, remove, and customize symptoms
 - ✅ Tracks patient age and gender
-- ✅ Real-time AI symptom analysis using DeepSeek R1
+- ✅ Real-time AI symptom analysis 
 - ✅ Responses categorized as **Urgent**, **Monitor**, or **Routine**
 - ✅ Saves symptom data locally (via `localStorage`)
 - ✅ Fully offline-friendly UI — no backend required
